@@ -1,0 +1,353 @@
+* {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #fbf3d1;  
+}
+
+.container {
+  width: 900px;  
+  margin: 0 auto;
+}
+
+/*PAGE SECTIONS*/
+
+.top-header {
+  background-color: #014421;  
+  border-top: 5px solid #d6d6d6; 
+  border-bottom: 5px solid #d6d6d6;
+  padding: 20px 40px;
+}
+
+.main-header {
+  padding-bottom: 20px;  
+}
+
+.highlights {
+  padding-top: 20px;
+}
+
+.categories {
+  margin-bottom: 40px;
+  padding: 20px;
+}
+
+.about-us {
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto 40px auto;
+}
+
+/*SMALLER ELEMENTS*/
+
+h2, h3 {
+  font-size: 35px;
+  color: #344f1f;  
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+h3 {
+  margin-bottom: 30px;  
+}
+
+h4 {
+  font-size: 25px;  
+}
+
+p {
+  font-size: 20px;
+  color: #2d3133;  
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+a {
+  color: #E6D5B8;  
+  text-decoration: none;
+}
+
+a:hover {
+  color: #f39c12;
+  text-decoration: underline solid #f39c12;  
+  cursor: pointer;
+}
+
+nav a {
+  padding-right: 10px;  
+}
+
+/*
+button {
+  width: 100%;
+  height: 60px;
+  color: #E6D5B8;
+  background-color: #79AE6F;
+  margin: 0 auto 5px auto;
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 8px;
+  
+}
+
+button:hover {
+  color: #79ae6f;
+  background-color: #e6d5b8;
+}*/
+
+
+.btn {
+  color: white; 
+  background-color: #8B4513;
+  font-size: 25px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 5px;
+  
+}
+
+.btn:hover {
+  background-color: #5D4037;
+  text-decoration: none; 
+  cursor: pointer;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  border: 3px solid #c8c2b0;
+  border-radius: 8px;
+}
+
+img:hover{
+  cursor: pointer;
+  width: 95%;
+  height: auto;
+}
+
+.top-header, .main-header, .highlights, .categories, .about-us {
+  margin-bottom: 40px;  
+}
+
+.top-header, .highlights, .hl-food, .categories, .about-us, .about-text {
+  border-radius: 10px;  
+}
+
+.highlights, .categories, .about-us {
+  border: 1px solid #ddd;  
+}
+
+.logo-title {
+  color: #fdfbf7;
+  font-style: italic;
+}
+
+.main-header p {
+  font-size: 20px;
+  text-align: center;  
+  margin: 20px;
+}
+
+.wm {
+  font-size: 25px !important;  
+}
+
+.hl-food {
+  position: relative;
+  text-align: center;
+  background-color: #fff;
+  width: 60%;
+  margin:0 auto 30px auto;
+  padding: 15px 15px 30px 15px;
+}  
+
+.recipe-name {
+  color: #8b4513;  
+}
+
+.description {
+  color: #5d4037;  
+  margin-bottom: 10px;
+}
+
+.categories-btn { 
+  display: block;
+  color: #E6D5B8;
+  background-color: #79AE6F;
+  font-size: 22px;
+  text-align: center;
+  border: 2px solid #000;
+  border-radius: 8px;
+  margin:0 auto 5px auto;
+  padding: 10px 5px;
+  width: 25%;
+  height: auto;
+}
+
+.categories-btn:hover {
+  color: #79ae6f;
+  background-color: #e6d5b8;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.about-text {
+  display: block;
+  font-size: 22px;
+  text-align: center;  
+  border: 3px solid #d6d6d6;
+}
+
+#hl-lasagne, #hl-applestrudel, #hl-ofenkartoffeln {
+  position: relative;  
+}
+
+/*BADGES*/
+
+#hl-lasagne::before, 
+#hl-lasagne::after, 
+#hl-lasagne a:last-child, 
+#hl-lasagne a:last-child:hover, 
+
+#hl-applestrudel::before, 
+#hl-applestrudel::after, 
+#hl-applestrudel a:last-child, 
+#hl-applestrudel a:last-child:hover, 
+
+#hl-ofenkartoffeln::before, 
+#hl-ofenkartoffeln::after, 
+#hl-ofenkartoffeln a:last-child, 
+#hl-ofenkartoffeln a:last-child:hover {
+  position: absolute;  
+  border: 2px solid #000;
+  border-radius: 10px;
+}
+
+#hl-lasagne::before {
+  content: '⭐TOP';  
+  color: #000;
+  background-color: #ffe70e;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 5px 10px;
+  top: -15px;
+  right: -25px;
+}
+
+#hl-lasagne::after {
+  content: '⏱️ ~1h 30min';
+  color: #333;
+  background-color: #f1f3f5;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 5px 10px;
+  bottom: 15px;
+  left: 25px;
+}
+
+#hl-lasagne a:last-child {
+  background-color: #f0f0f0;
+  color: #000;
+  font-size: 18px; 
+  padding: 5px 10px;
+  bottom: 15px;
+  right: 50px;
+}
+
+#hl-lasagne a:last-child:hover { 
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#hl-applestrudel::before {
+  content: '✨Easy' ;
+  color: #000;
+  background-color: #90EE90;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 5px 10px;
+  top: -15px;
+  right: -25px;
+}
+
+#hl-applestrudel::after {
+  content: '⏱️ ~50min';
+  color: #333;
+  background-color: #f1f3f5;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 5px 10px;
+  bottom: 15px;
+  left: 25px; 
+}
+
+#hl-applestrudel a:last-child {
+  background-color: #f0f0f0;
+  color: #000;
+  font-size: 18px; 
+  padding: 5px 10px;
+  bottom: 15px;
+  right: 50px; 
+}
+
+#hl-applestrudel a:last-child:hover { 
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#hl-ofenkartoffeln::before {
+  content: '🥘 Traditional' ;
+  color: #000;
+  background-color: #8B0000;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 5px 10px;
+  top: -15px;
+  right: -25px;    
+}
+#hl-ofenkartoffeln::after {
+  content: '⏱️ ~1h 5min';
+  color: #333;
+  background-color: #f1f3f5;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 5px 10px;
+  bottom: 15px;
+  left: 25px;   
+} 
+#hl-ofenkartoffeln a:last-child {
+  background-color: #f0f0f0;
+  color: #000;
+  font-size: 18px; 
+  padding: 5px 10px;
+  bottom: 15px;
+  right: 50px;   
+}
+#hl-ofenkartoffeln a:last-child:hover {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

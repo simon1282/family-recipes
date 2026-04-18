@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;  
+  background-color: #F5F5DC;
+}
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+
+h2, h3 {
+  text-align: center;
+  margin: 15px;
+}
+
+p, li {
+  font-size: 20px;
+  color: #4B3621;  
+}
+
+.main-header p, img {
+  width: 50%;  
+}
+
+img, .top-header, .main-header, .ingredients, .preparation {
+  border-radius: 8px;  
+}
+
+.main-header, .ingredients, .preparation {
+  margin-bottom: 40px;  
+}
+
+.ingredients, .preparation {
+  border: 1px solid #ddd; 
+  padding-bottom: 10px;
+}
+
+
+li, .pro-tip {
+  font-size: 25px;  
+  line-height: 1.6;
+}
+
+h2 {
+  font-size: 35px;
+  color: #A52A2A;
+}
+
+h3 {
+  font-size: 30px;
+  color: #D48806; 
+  margin-bottom: 30px;
+  margin-top: 15px;
+}
+
+p {
+  margin: 0 auto;
+}
+
+li {
+  margin-left: 45px;  
+  padding: 5px;
+}
+
+li::marker {
+    color: #4F7942; 
+    font-weight: bold;
+}
+
+ul li {
+  list-style: square;  
+}
+
+a {
+  color: #E6D5B8;  
+  text-decoration: none;
+}
+
+a:hover {
+  color: #f39c12;
+  text-decoration: underline solid #f39c12;  
+}
+
+img {
+  height: auto;
+  border: 3px solid #c8c2b0;
+  border-radius: 8px;
+  margin: 20px;
+}
+
+.top-header {
+  background-color: #014421;  
+  border-top: 5px solid #d6d6d6; 
+  border-bottom: 5px solid #d6d6d6;
+  padding: 20px 40px;
+  margin-bottom: 30px;
+  
+}
+
+.logo-title {
+  color: #fdfbf7;
+  font-style: italic;
+}
+
+.main-header {
+  text-align: center;
+  margin: 40px auto;
+}
+
+.pro-tip {
+  text-align: center;  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
